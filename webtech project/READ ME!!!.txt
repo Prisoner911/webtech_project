@@ -1,6 +1,6 @@
-Put attendance folder in : "wherever it is installed/xampp/mysql/data".
+Put attendance folder in : "C:/xampp/mysql/data".
 
-Put webtech folder in : "wherever it is installed/xampp/htdocs".
+Put webtech folder in : "C:/xampp/htdocs".
 
 NOW FOLLOW THESE STEPS:
 
