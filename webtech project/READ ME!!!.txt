@@ -1,3 +1,5 @@
+Note: XAMPP is needed to run this website.
+
 Put attendance folder in : "C:/xampp/mysql/data".
 
 Put webtech folder in : "C:/xampp/htdocs".
