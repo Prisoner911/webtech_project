@@ -190,7 +190,7 @@
                                             <?php echo $row["Roll_no"] ?>
                                         </td>
                                         <td>
-                                            <?php echo $row["Student_name"] ?>
+                                            <?php echo $row["s_name"] ?>
                                         </td>
 
                                         <td>
