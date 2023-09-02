@@ -11,24 +11,24 @@
 <style>
     html,
     body {
-        background-image: url(hogwarts-legacy.jpg);
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        margin: 0px;
-        height: 100%;
-    }
+            background-image: url(hogwarts-legacy.jpg);
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0px;
+            height: 100%;
+        }
 
-    .bg {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        background: rgba(0, 0, 0, 0.4);
-    }
-
+        .bg {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background: rgba(0, 0, 0, 0.4);
+            overflow: auto;
+        }
     .nav-link:hover {
         cursor: pointer;
     }
@@ -124,8 +124,9 @@
     }
 </style>
 
-<body>
-    <div>
+<body>  
+    <div class="bg">
+        <div>
         <nav class="navbar navbar-expand-lg" style="background-color: rgba(0,0,0,0.5);">
             <div class="container-fluid">
                 <img src="hg_logo.jpg" style="height: 80px; width: 80px; margin: 0px;">
@@ -161,7 +162,6 @@
             </div>
         </nav>
     </div>
-    <div class="bg">
         <div>
             <form action="attendance1.php" method="post" id="frm1">
                 <div class="date_sec">
